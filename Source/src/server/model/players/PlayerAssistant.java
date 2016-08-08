@@ -664,6 +664,15 @@ public boolean playerNameExists(String name) {
 			}
 		}
 	}
+	public void removeAllItems() {
+		for (int i = 0; i < c.playerItems.length; i++) {
+			c.playerItems[i] = 0;
+		}
+		for (int i = 0; i < c.playerItemsN.length; i++) {
+			c.playerItemsN[i] = 0;
+		}
+		c.getItems().resetItems(3214);
+	}
 	
 	public void removeAllWindows() {
 		synchronized(c) {
