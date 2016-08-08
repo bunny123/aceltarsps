@@ -172,16 +172,12 @@ public class ItemHandler {
 					
 				for (int j = 0; j < itemAmount; j++) {
 					c.getItems().createGroundItem(itemId, itemX, itemY, 1);
-					GroundItem item = new GroundItem(itemId, itemX, itemY, 1,
-							c.playerId, HIDE_TICKS,
-							PlayerHandler.players[playerId].playerName);
+					GroundItem item = new GroundItem(itemId, itemX, itemY, 1, c.playerId, (c.inWild() ? 2 : HIDE_TICKS), Server.playerHandler.players[playerId].playerName);
 					addItem(item);
 				}	
 			} else {
 				c.getItems().createGroundItem(itemId, itemX, itemY, itemAmount);
-				GroundItem item = new GroundItem(itemId, itemX, itemY,
-						itemAmount, c.playerId, HIDE_TICKS,
-						PlayerHandler.players[playerId].playerName);
+				GroundItem item = new GroundItem(itemId, itemX, itemY, itemAmount, c.playerId, (c.inWild() ? 2 : HIDE_TICKS), Server.playerHandler.players[playerId].playerName);
 				addItem(item);
 			}
 		}

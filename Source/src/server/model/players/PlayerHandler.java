@@ -7,6 +7,8 @@ import server.Server;
 import server.model.npcs.NPCHandler;
 import server.util.Misc;
 import server.util.Stream;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class PlayerHandler{
 
@@ -50,6 +52,21 @@ public class PlayerHandler{
 			});
 
 		}
+	public final void getDoubleEXPWeekend() {
+		Calendar calendar = new GregorianCalendar();
+		int day = calendar.get(Calendar.DAY_OF_WEEK);
+		Config.doubleEXPWeekend = false;
+		if (day > 6) {
+			Config.doubleEXPWeekend = true;
+			Config.SERVER_EXP_BONUS = 2;
+			return;
+		} else if (day < 2) {
+			Config.doubleEXPWeekend = true;
+			Config.SERVER_EXP_BONUS = 2;
+			return;
+		}
+		Config.SERVER_EXP_BONUS = 1;
+	}
 
     public boolean newPlayerClient(Client client1)
     {
@@ -86,6 +103,7 @@ public class PlayerHandler{
 	}
 
 	public void updatePlayerNames() {
+		getDoubleEXPWeekend();
 		playerCount = 0;
 		for(int i = 0; i < Config.MAX_PLAYERS; i++) {
 			if(players[i] != null) {
@@ -352,3 +370,4 @@ public class PlayerHandler{
 	}
 	
 }
+

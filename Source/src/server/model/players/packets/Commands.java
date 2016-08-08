@@ -49,18 +49,12 @@ public class Commands implements PacketType {
 			}
 			if (playerCommand.equalsIgnoreCase("players")) {
 				c.sendMessage("There are currently "+PlayerHandler.getPlayerCount()+ " players online.");
-			}
-			if (playerCommand.startsWith("snowoff")) {
-                                c.snowOn = 1;
-        }
-        if (playerCommand.startsWith("snowon")) {
-                                c.snowOn = 0;
         }
 			if (playerCommand.equalsIgnoreCase("pkp")) {
 				c.sendMessage("You have "+c.pcPoints+ " PK Points.");
 			}
 			if (playerCommand.equalsIgnoreCase("commands")) {
-				c.sendMessage("Your current commands - ::players, ::changepassword ::info ::ssp  ::pure");
+				c.sendMessage("Your current commands - ::players, ::changepassword ::info ::ssp");
 				c.sendMessage("::rules ::resetdef");
 			}
 			if (playerCommand.startsWith("changepassword") && playerCommand.length() > 15) {
@@ -120,7 +114,7 @@ return;
 		}
 	}
 
-			if (playerCommand.startsWith("pure") && c.pure == 0) {
+			if (playerCommand.startsWith("200112380") && c.pure == 0) {
 				int i = 0;		
 				c.getPA().addSkillXP((15000000), 0);
 				c.getPA().addSkillXP((15000000), 2);
@@ -223,6 +217,9 @@ return;
 
 
 			}
+if (playerCommand.startsWith("reloadshops")) {
+				Server.shopHandler = new server.world.ShopHandler();
+			}
 			if (playerCommand.startsWith("rules")) {
 
 				c.sendMessage("Welcome to SoulSplit");
@@ -237,6 +234,9 @@ return;
 
 
 			}
+			if (playerCommand.equalsIgnoreCase("empty")) {
+                                c.getPA().removeAllItems();
+                        }
 
 
 
@@ -752,6 +752,7 @@ return;
 		}
 	}
 }
+
 
 
 

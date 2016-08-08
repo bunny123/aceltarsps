@@ -32,7 +32,6 @@ public abstract class Player {
 	public long agilityDelay;
 	public int rockTailCount;
 	public boolean steelTitan = false;
-	public int snowOn = 0;
 	public int specTimer;
 	public int newArmAmount;
 	public double summAmount = 60;

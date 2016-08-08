@@ -450,7 +450,10 @@ public void stackableItemSlot(int itemId) {
 			setSidebarInterface(15, 17350);
 			setSidebarInterface(16, 18017);
 			
-			sendMessage("<shad=15369497>Welcome to Acelta");
+			sendMessage("Welcome to Acelta");
+			if (Config.doubleEXPWeekend == true) {
+				sendMessage("Enjoy Double EXP Weekend!");
+			}
 			if (lastsummon > 0) {
 			Summoning().SummonNewNPC(lastsummon);
 		}
@@ -865,8 +868,8 @@ public void stackableItemSlot(int itemId) {
 				getPA().sendFrame126("@yel@Level: " + wildLevel, 199);
 			}
 			getPA().showOption(3, 0, "Attack", 1);
-			} else if(!inWild() && !inPcBoat() && !inPcGame() && snowOn == 0) {
-                getPA().walkableInterface(11877);
+			} else if(!inWild() && !inPcBoat() && !inPcGame()){
+                
 		} else if (inDuelArena()) {
 			getPA().walkableInterface(201);
 			if (duelStatus == 5) {
@@ -1337,3 +1340,4 @@ public void fmwalkto(int i, int j)
 	}
 
 }
+

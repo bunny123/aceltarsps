@@ -5,9 +5,9 @@ public class Config {
 
 	public static final boolean SERVER_DEBUG = false;//needs to be false for Real world to work
 	
-	public static final String SERVER_NAME = "SoulSplit";
+	public static final String SERVER_NAME = "Acelta";
 	public static final String WELCOME_MESSAGE = "SoulSplit.com";
-	public static final String FORUMS = "SoulSplit.com/forum";
+	public static final String FORUMS = "Acelta.com/forum";
 	
 	public static final int CLIENT_VERSION = 1;
 	
@@ -27,6 +27,7 @@ public class Config {
 	public static final int INCREASE_SSPEC_AMOUNT = 23000; //Summoning Refill
 
 	public static final boolean CLIPPED_FIREMAKING = true;
+	public static boolean doubleEXPWeekend = false;
 		
 	public static final boolean WORLD_LIST_FIX = true; // change to true if you want to stop that world--8 thing, but it can cause the screen to freeze on silabsoft client
 	
@@ -66,7 +67,7 @@ public class Config {
 	public static final int MELEE_EXP_RATE = 1250; // damage * exp rate
 	public static final int RANGE_EXP_RATE = 980;
 	public static final int MAGIC_EXP_RATE = 880;
-	public static final double SERVER_EXP_BONUS = 1;
+	public static double SERVER_EXP_BONUS = 1;
 	
 	public static final int INCREASE_SPECIAL_AMOUNT = 17500; // how fast your special bar refills
 	public static final boolean PRAYER_POINTS_REQUIRED = true; // you need prayer points to use prayer

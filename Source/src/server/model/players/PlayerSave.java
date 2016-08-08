@@ -99,8 +99,6 @@ public class PlayerSave
 							p.ag5 = Integer.parseInt(token2);
 						} else if (token.equals("ag6")) {
 							p.ag6 = Integer.parseInt(token2);
-						} else if (token.equals("snowOn")) {
-                       p.snowOn = Integer.parseInt(token2);
 					} else if (token.equals("magic-book")) {
 						p.playerMagicBook = Integer.parseInt(token2);
 					} else if (token.equals("brother-info")) {
@@ -326,10 +324,7 @@ public class PlayerSave
 			characterfile.write("ag6 = ", 0, 6);
 			characterfile.write(Integer.toString(p.ag6), 0, Integer.toString(p.ag6).length());
 			characterfile.newLine();
-			characterfile.newLine();
-			characterfile.write("snowOn = ", 0, 9);
-            characterfile.write(Integer.toString(p.snowOn), 0, Integer.toString(p.snowOn).length());
-            characterfile.newLine();
+            	characterfile.newLine();
 			characterfile.write("magic-book = ", 0, 13);
 			characterfile.write(Integer.toString(p.playerMagicBook), 0, Integer.toString(p.playerMagicBook).length());
 			characterfile.newLine();

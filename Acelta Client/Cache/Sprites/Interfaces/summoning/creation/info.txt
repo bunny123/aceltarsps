@@ -1,0 +1,56 @@
+khali18
+gore123
+
+8 = across
+10 = down
+-2 = 78 total frames
+Transform Scolls
+Swap between\\ncreating pouches and\\nscrolls
+
+Infuse Pouches
+Swap between\\ncreating pouches and\\nscrolls
+
+"Renew-points Small obelisk"
+"You already have full Summoning points."
+-----------------------------------------------------
+Magic spell = pouch or scroll (gives hover)
+Box area (for item) gives orange outline
+
+Level #: Pouch or scroll name
+This item requires
+pouches are all 4-5 items scrolls are all 1
+5th item is next row down first colum (ice titan, wolpertinger)
+
+
+"You do not have all the materials to make these Summoning pouches."
+"This pouch requires 1 set of wolf bones, 1 gold charm and 7 spirit shards.
+-------------
+Orbs
+
+turns on when you have a summond npc
+"Case @gre@Gowl -> @yel@NPC NAME"
+(other options still present, on player/npc)
+"Take BoB"
+"This follower can't hold any items."
+"Attack"
+"Attack -> NPC NAME"
+"Interact" same as right click npc"
+"Renew Familiar" "To renew your familiar's timer you must have a pouch of that familiar's type and be
+ready to sacrifice it."
+
+CONFIRM LEFT CLICK OPTIPONS TAKES YOU TO SUMMONING TAB
+
+IF NO FAMILIAR ONLY OPTION IS "Select-left-click" options
+when time runs out target tab is changed back to inventory
+--------------
+
+
+Familiar Area
+
+Simular to the duel area, however players stand behind the combat zone and have their familiars fight to the death to win.
+
+Players can set number of familiars to challenge with (e.g. 3) Both players will require the same amount of familiars for combat, pouches will be located in the inventory, and players will not be able to set an amount greater than what the other player has, for example if I have 5 familiars and you have 1 I can't set anything above 1 familiar challenge.
+
+Players can have as many as 28 familiars but can not be the same type of familiar, for example if I summon a spirit wolf, I can not summon a second spirit wolf after it dies.
+
+Players will have the additional option of using other items, for example, players can use ash on their Phoenix familiar to renew it. However renewing a familiar with a new pouch is not possible in the area.
