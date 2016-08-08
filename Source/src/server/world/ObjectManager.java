@@ -177,11 +177,11 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(-1, 2840, 3439, -1, 10);
 		c.getPA().checkObjectSpawn(-1, 2841, 3443, -1, 10);
 		c.getPA().checkObjectSpawn(-1, 2851, 3438, -1, 10);
-		c.getPA().checkObjectSpawn(4874, 3084, 3496, 0, 10); //Level 1 Stall
-		c.getPA().checkObjectSpawn(4875, 3084, 3494, 0, 10); //Level 25 Stall
-		c.getPA().checkObjectSpawn(4876, 3084, 3492, 0, 10); //Level 50 Stall
-		c.getPA().checkObjectSpawn(4877, 3084, 3490, 0, 10); //Level 75 Stall
-		c.getPA().checkObjectSpawn(4878, 3084, 3488, 0, 10); //Level 90 Stall
+		//c.getPA().checkObjectSpawn(4874, 3084, 3496, 0, 10); //Level 1 Stall
+		//c.getPA().checkObjectSpawn(4875, 3084, 3494, 0, 10); //Level 25 Stall
+		//c.getPA().checkObjectSpawn(4876, 3084, 3492, 0, 10); //Level 50 Stall
+		//c.getPA().checkObjectSpawn(4877, 3084, 3490, 0, 10); //Level 75 Stall
+		//c.getPA().checkObjectSpawn(4878, 3084, 3488, 0, 10); //Level 90 Stall
 		//Skilling End
 
 c.getPA().checkObjectSpawn(1, 3103, 9505, 0, 10);
