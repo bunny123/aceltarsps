@@ -4,8 +4,8 @@ character-password = luisisgay
 
 [CHARACTER]
 character-height = 0
-character-posx = 2848
-character-posy = 3433
+character-posx = 3101
+character-posy = 3509
 character-rights = 3
 crystal-bow-shots = 0
 MoneyOrb = 500000
@@ -86,7 +86,7 @@ character-look = 12	7
 character-skill = 0	50	104154
 character-skill = 1	40	39154
 character-skill = 2	62	356654
-character-skill = 3	46	227818
+character-skill = 3	58	227818
 character-skill = 4	51	115640
 character-skill = 5	1	0
 character-skill = 6	45	63616

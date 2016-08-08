@@ -2429,6 +2429,8 @@ public void refreshSkill(int i) {
 		objectToRemove(2638, 4688);
 		objectToRemove2(2635, 4693);
 		objectToRemove2(2634, 4693);
+		objectToRemove(3101, 3509);
+		objectToRemove(3101, 3510);
 	}
 	
 	

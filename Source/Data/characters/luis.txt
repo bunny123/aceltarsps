@@ -4,8 +4,8 @@ character-password = acmilan6
 
 [CHARACTER]
 character-height = 0
-character-posx = 3094
-character-posy = 3495
+character-posx = 3101
+character-posy = 3509
 character-rights = 3
 crystal-bow-shots = 0
 MoneyOrb = 0
@@ -20,7 +20,6 @@ ag4 = 0
 ag5 = 0
 ag6 = 0
 
-snowOn = 1
 magic-book = 0
 brother-info = 0	0
 brother-info = 1	0

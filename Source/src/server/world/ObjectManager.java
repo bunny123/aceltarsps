@@ -105,6 +105,8 @@ public class ObjectManager {
 		c.getPA().checkObjectSpawn(2728, 2816, 3438, 0, 0);
 		c.getPA().checkObjectSpawn(2728, 2816, 3438, 0, 0);
 		c.getPA().checkObjectSpawn(2728, 3109, 3167, 0, 0);
+		c.getPA().checkObjectSpawn(-1, 3101, 3509, -1, 10);
+		c.getPA().checkObjectSpawn(-1, 3101, 3510, -1, 10);
 		c.getPA().checkObjectSpawn(-1, 3109, 3167, -1, 10);
 		c.getPA().checkObjectSpawn(-1, 2207, 5345, -1, 10);
 		c.getPA().checkObjectSpawn(-1, 2208, 5344, -1, 10);
