@@ -15,6 +15,7 @@ public class ChangeRegions implements PacketType {
 		Server.itemHandler.reloadItems(c);
 		Server.objectManager.loadObjects(c);
 		c.getPA().castleWarsObjects();
+		c.getPA().removeObjects();
 		
 		c.saveFile = true;
 		
