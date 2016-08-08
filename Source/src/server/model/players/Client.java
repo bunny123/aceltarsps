@@ -450,7 +450,7 @@ public void stackableItemSlot(int itemId) {
 			setSidebarInterface(15, 17350);
 			setSidebarInterface(16, 18017);
 			
-			sendMessage("<shad=15369497>Welcome to Project Perfection");
+			sendMessage("<shad=15369497>Welcome to Acelta");
 			if (lastsummon > 0) {
 			Summoning().SummonNewNPC(lastsummon);
 		}
