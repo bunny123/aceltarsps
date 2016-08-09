@@ -4,8 +4,8 @@ character-password = luisisgay
 
 [CHARACTER]
 character-height = 0
-character-posx = 3101
-character-posy = 3509
+character-posx = 3098
+character-posy = 3511
 character-rights = 3
 crystal-bow-shots = 0
 MoneyOrb = 500000
@@ -56,7 +56,7 @@ character-equip = 0	-1	1
 character-equip = 1	-1	1	
 character-equip = 2	1731	1	
 character-equip = 3	1323	1	
-character-equip = 4	-1	1	
+character-equip = 4	1135	1	
 character-equip = 5	-1	1	
 character-equip = 6	-1	0	
 character-equip = 7	-1	1	
@@ -85,8 +85,8 @@ character-look = 12	7
 [SKILLS]
 character-skill = 0	50	104154
 character-skill = 1	40	39154
-character-skill = 2	62	356654
-character-skill = 3	58	227818
+character-skill = 2	65	471654
+character-skill = 3	59	266146
 character-skill = 4	51	115640
 character-skill = 5	1	0
 character-skill = 6	45	63616
@@ -100,7 +100,7 @@ character-skill = 13	13	1920
 character-skill = 14	30	14400
 character-skill = 15	1	0
 character-skill = 16	1	0
-character-skill = 17	57	217440
+character-skill = 17	57	219040
 character-skill = 18	1	0
 character-skill = 19	1	0
 character-skill = 20	1	0
@@ -110,12 +110,16 @@ character-skill = 23	1	0
 character-skill = 24	1	0
 
 [ITEMS]
-character-item = 0	996	1860
+character-item = 0	996	5927243
 character-item = 1	1268	1
 character-item = 2	2350	1
 character-item = 3	2350	1
 character-item = 4	2350	1
 character-item = 5	2350	1
+character-item = 6	1136	1
+character-item = 7	1136	1
+character-item = 9	1136	1
+character-item = 10	1136	1
 character-item = 11	439	1
 
 [BANK]
